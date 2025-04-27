@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='w-full border-t-2 border-solid border-dark font-medium text-lg dark:text-light dark:border-light'>
         <Layout className='py-8 flex items-center justify-center'>
-            <span>Copyright &copy; {new Date().getFullYear()} Louis Koo Design. All Rights Reserved</span>
+            <span>Copyright &copy; {new Date().getFullYear()} Louis Koo. All Rights Reserved</span>
         </Layout>
     </footer>
   )
