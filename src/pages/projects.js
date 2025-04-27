@@ -58,9 +58,10 @@ const projects = () => {
         <main className='w-full mb-16 flex flex-col items-center justify-center'>
             <Layout className='pt-16'>
                 <AnimatedText className='xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
-                text='Jobs | Projects'/>
-                <div className='grid grid-cols gap-24 xl:gap-x-16'>
-                    <div className='col-span'>
+                text='Projects | Jobs'/>
+                {/* grid-cols-12 control the size */}
+                <div className='grid grid-cols-12 gap-24 xl:gap-x-16'>
+                    <div className='col-span-12'>
                         <JobsProjects
                         type="Client Projects"
                         title="Smart Watch Dashboard"
@@ -69,7 +70,7 @@ const projects = () => {
                         link=""
                         />                        
                     </div>
-                    <div className='col-span'>
+                    <div className='col-span-6'>
                         <JobsProjects
                         type="Client Projects"
                         title="Smart Electrial Box Dashboard"
@@ -78,16 +79,7 @@ const projects = () => {
                         link=""
                         />                        
                     </div>
-                    <div className='col-span'>
-                        <JobsProjects
-                        type="Client Projects"
-                        title="DWSS - Digital Works Supervision System Intergration"
-                        img={Pending}
-                        summary="API, React, React Bootstrap, Material Design, JavaScript,"
-                        link=""
-                        />                        
-                    </div>
-                    <div className='col-span'>
+                    <div className='col-span-6'>
                         <JobsProjects
                         type="Client Projects"
                         title="Gas Sensor Intergration"
@@ -96,7 +88,16 @@ const projects = () => {
                         link=""
                         />                        
                     </div>
-                    <div className='col-span'>
+                    <div className='col-span-12'>
+                        <JobsProjects
+                        type="Client Projects"
+                        title="DWSS - Digital Works Supervision System Intergration"
+                        img={Pending}
+                        summary="API, React, React Bootstrap, Material Design, JavaScript,"
+                        link=""
+                        />                        
+                    </div>
+                    <div className='col-span-12'>
                         <JobsProjects
                         type="Freelance Job"
                         title="BGE Blog"
@@ -105,7 +106,7 @@ const projects = () => {
                         link="https://blog.bg.exchange/"
                         />                        
                     </div>
-                    <div className='col-span'>
+                    <div className='col-span-12'>
                         <JobsProjects
                         type="Freelance Job"
                         title="Auto-ID Solution"
