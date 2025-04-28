@@ -8,6 +8,9 @@ import { GithubIcon } from '@/components/Icons'
 import BGEIndex from '../../public/images/profile/BGEIndex.png'
 import AutoIDSIndex from '../../public/images/profile/AutoIDSIndex.png'
 import Pending from '../../public/images/profile/Pending.jpg'
+import SmartWatch from '../../public/images/profile/SW_SNR.png'
+import Electral_box from '../../public/images/profile/electral_box_snr.png'
+import SSW_DWSS_report from '../../public/images/profile/SSW_DWSS_report.png'
 
 const JobsProjects = ({ type, title, img, link, summary, github, code}) => {
     return (        
@@ -65,16 +68,16 @@ const projects = () => {
                         <JobsProjects
                         type="Client Projects"
                         title="Smart Watch Dashboard"
-                        img={Pending}
+                        img={SmartWatch}
                         summary="HTML5, CSS3, JavaScript, NodeJS, MongoDB, Alibaba Cloud"
-                        link=""
+                        link="https://smart-watch-dashboard.web.app/snr/"
                         />                        
                     </div>
                     <div className='col-span-6'>
                         <JobsProjects
                         type="Client Projects"
                         title="Smart Electrial Box Dashboard"
-                        img={Pending}
+                        img={Electral_box}
                         summary="HTML5, CSS3, JavaScript, NodeJS, MongoDB, AWS, Alibaba Cloud"
                         link=""
                         />                        
@@ -92,9 +95,9 @@ const projects = () => {
                         <JobsProjects
                         type="Client Projects"
                         title="DWSS - Digital Works Supervision System Intergration"
-                        img={Pending}
+                        img={SSW_DWSS_report}
                         summary="API, React, React Bootstrap, Material Design, JavaScript,"
-                        link=""
+                        link="https://ssw-dwss-integration.web.app/"
                         />                        
                     </div>
                     <div className='col-span-12'>
