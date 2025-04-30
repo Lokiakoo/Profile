@@ -48,7 +48,7 @@ const Experience = () => {
                 time="Oct 2023 - Present"
                 />
                 <Details
-                position="WordPress Developer"
+                position="Web Developer"
                 company="Freelance Job"
                 time="May 2023"
                 />

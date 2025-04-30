@@ -96,7 +96,7 @@ const projects = () => {
                         type="Client Projects"
                         title="DWSS - Digital Works Supervision System Intergration"
                         img={SSW_DWSS_report}
-                        summary="API, React, React Bootstrap, Material Design, JavaScript,"
+                        summary="API, React, React Bootstrap, Material Design, JavaScript"
                         link="https://ssw-dwss-integration.web.app/"
                         />                        
                     </div>

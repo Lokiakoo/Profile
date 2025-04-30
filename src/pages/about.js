@@ -50,22 +50,23 @@ const about = () => {
                         I am
                     </h2>
                     <p className='font-medium md:text-sm sm:text-sm'>
-                        Hello, I'm Louis, a web developer and a front-end specialist with passion for creating engaging and user-friendly digital experiences. 
-                        My goal is to become a full-time fullstack developer and apply my technical expertise and creativity to build stunning websites.
+                        Hello, I'm Louis, a developer with passion for creating engaging and user-friendly digital experiences. 
+                        My goal is to become a fullstack developer and apply my technical expertise and creativity to build stunning websites.
                     </p><br/>
                     <p className='font-medium md:text-sm sm:text-sm'>
-                        I hold a Professional Diploma in Cross-platform Applications Development and I have the basic Cloud service knowledge.
-                        I am able to deliver exceptional web projects that meet and exceed client expectations.
+                        I have completed a university degree in computer science and have a diploma in cross-platform application development. 
+                        I have some experience in both front-end and back-end, and have knowledge of cloud services and deployment.
                     </p><br/>
                     <p className='font-medium md:text-sm sm:text-sm'>
-                        My customer service skillsets developed in my previous experience in the hospitality industry are transferable to user-centric tasks such as UX / UI.
+                        My customer service skillsets developed in my previous experience in the hospitality industry are transferable to the IT industry. 
+                        For example, make sure the solution is explained clearly so that customers who don’t understand IT jargon can also understand the solution.
                     </p><br/>
                     <p className='font-medium md:text-sm sm:text-sm'>                          
-                        I embrace teamwork and understand that communications skills are essential for smooth collaboration with clients and colleagues.
+                        I understand that communications skills are essential for smooth collaboration with clients and colleagues.
                     </p><br/>
                     <p className='font-medium md:text-sm sm:text-sm'>
-                        If you are looking for a website builder or a front-end developer with customer service skills,
-                        please contact me. I am excited to bring my expertise and enthusiasm to your IT project
+                        If you are looking for a website builder or a developer with customer service skills.
+                        I am excited to bring my expertise and enthusiasm to your IT project.
                     </p>
                 </div>
 
