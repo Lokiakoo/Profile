@@ -54,7 +54,7 @@ const about = () => {
                         My goal is to become a fullstack developer and apply my technical expertise and creativity to build stunning websites.
                     </p><br/>
                     <p className='font-medium md:text-sm sm:text-sm'>
-                        I have completed a university degree in computer science and have a diploma in cross-platform application development. 
+                        I have completed a bachelor's degree in computer science and have a diploma in cross-platform application development. 
                         I have some experience in both front-end and back-end, and have knowledge of cloud services and deployment.
                     </p><br/>
                     <p className='font-medium md:text-sm sm:text-sm'>

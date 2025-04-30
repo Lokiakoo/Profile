@@ -8,8 +8,10 @@ import { GithubIcon } from '@/components/Icons'
 import BGEIndex from '../../public/images/profile/BGEIndex.png'
 import AutoIDSIndex from '../../public/images/profile/AutoIDSIndex.png'
 import Pending from '../../public/images/profile/Pending.jpg'
-import SmartWatch from '../../public/images/profile/SW_SNR.png'
+import Smart_Watch from '../../public/images/profile/SW_SNR.png'
 import Electral_box from '../../public/images/profile/electral_box_snr.png'
+import Confined_Space from '../../public/images/profile/ConfinedSpace.png'
+import Environment_sensor from '../../public/images/profile/Environment_sensor.png'
 import SSW_DWSS_report from '../../public/images/profile/SSW_DWSS_report.png'
 
 const JobsProjects = ({ type, title, img, link, summary, github, code}) => {
@@ -68,7 +70,7 @@ const projects = () => {
                         <JobsProjects
                         type="Client Projects"
                         title="Smart Watch Dashboard"
-                        img={SmartWatch}
+                        img={Smart_Watch}
                         summary="HTML5, CSS3, JavaScript, NodeJS, MongoDB, Alibaba Cloud"
                         link="https://smart-watch-dashboard.web.app/snr/"
                         />                        
@@ -86,9 +88,18 @@ const projects = () => {
                         <JobsProjects
                         type="Client Projects"
                         title="Gas Sensor Intergration"
-                        img={Pending}
-                        summary="API, NodeJS, MongoDB, AWS, Alibaba Cloud"
-                        link=""
+                        img={Confined_Space}
+                        summary="API Intergration, NodeJS, MongoDB, AWS, Alibaba Cloud"
+                        link="http://94.190.218.197:7002/SiteMonitoring_Web/SiteMonitor/ConfinedSpaceRealTimeState"
+                        />                        
+                    </div>
+                    <div className='col-span-12'>
+                        <JobsProjects
+                        type="Client Projects"
+                        title="Environment Sensor Intergration"
+                        img={Environment_sensor}
+                        summary="API Intergration, NodeJS, MongoDB, AWS, Alibaba Cloud"
+                        link="http://94.190.218.197:7002/SiteMonitoring_Web/EnvironmentMonitor/DataStatistics"
                         />                        
                     </div>
                     <div className='col-span-12'>
