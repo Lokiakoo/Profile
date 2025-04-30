@@ -27,7 +27,7 @@ export default function Home() {
               <AnimatedText text="Coding and Designer Thinking" className='!text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-base font-medium md:text-sm sm:text-sm'>
-                A passionate junior web developer eager to learn and grow in the field of software development.
+                A passionate developer eager to learn and grow in the field of software development.
                 I am always looking for opportunities to challenge myself and expand my skillset.
                 I enjoy working collaboratively with others to solve complex problems and bring innovative ideas to life.
               </p>
